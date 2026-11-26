@@ -1,73 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
 
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+</style>
 </head>
 
 <body>
+<header>
 
-    <header>
+<h1>The stories of the Observatory Cat Chronicles</h1>
+<h2>Welcome to the stories of the Observatory Cat Chronicles</h2>
+<p>it all started when the lights turned off.</p>
 
-        <h1>The stories of the Observatory Cat Chronicles</h1>
+<div class="links">
 
-        <h2>Welcome to the stories of the Observatory Cat Chronicles
-        </h2>
-        <p>it all started when the lights turned off.</p>
-            
-        </div>
-<p>
-            Archived by the old cat council and the Archivists
-</p>
-    </header>
+<a class="button" href="stories.html">
+<img class="button-image-normal" src="images/buttons/button.png" alt="">
+<img class="button-image-hover" src="images/buttons/button-hover.png" alt="">
+<span>Back to Stories</span>
+</a>
+
+</div>
+
+</header>
+
+<footer>
+    <p>Archived by the old cat council and the Archivists</p>
+</footer>
 
 </body>
 </html>
