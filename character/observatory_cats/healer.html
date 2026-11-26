@@ -1,77 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Healer</h1>
-
-        <h2>Welcome to the Healer book</h2>
-
-        <h2>healer:she/her</h2>
-
-        <p>Healer is the medic of the Observatory and has a proper medbay and surgery room.</p>
-        <p>Healer joined cuz there was a mission that ended really bad and the agents needed a medic, luckily Healer was there on the planet they went to.</p>
-        <p>Aries was part of that mission and couldn't walk for a while so Healer tried to stop him from exploring and actually worked.</p>
-        <p>on a separate occasion leo got a paperclip from a project the creators were doing and healer patched her up.</p>
-        <p>Healer feels inadequate because she's one of the newest members of the observatory cats although seeing atlas and quill join did help only a little.</p>
-        <p>
-            Archived by Healer
-</p>
-    </header>
-
+<header>
+<h1>Healer</h1>
+<h2>Welcome to the Healer book</h2>
+<h2>Healer: she/her</h2>
+<img class="character-image" src="../../images/Observatory_cats/healer.png" alt="Healer">
+<p>Healer is the medic of the Observatory and has a proper medbay and surgery room.</p>
+<p>Healer joined because a mission ended really badly and the Agents needed a medic. Luckily, Healer was on the planet they visited.</p>
+<p>Aries was part of that mission and couldn't walk for a while, so Healer tried to stop him from exploring. It actually worked.</p>
+<p>On a separate occasion, Leo got a paperclip from a project the Creators were working on, and Healer patched her up.</p>
+<p>Healer feels inadequate because she's one of the newest members of the Observatory Cats, although seeing Atlas and Quill join helped a little.</p>
+<div class="links">
+<a class="button" href="../observatory_cats.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Observatory Cats</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Healer</p>
+</footer>
 </body>
 </html>
