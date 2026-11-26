@@ -1,75 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Nightfang</h1>
-
-        <h2>Welcome to the Nightfang book</h2>
-
-        <h2>nightfang:she/her</h2>
-
-        <p>Nightfang was part of the reason the old cat council left, she was able to interprete one of cosmic cats predictions, the only one cracked before the event happened.</p>
-        <p>The prediction was about how Admiral Tuna was too weak to defend the observatory and failed. Nightfang immediately called a meeting and told everyone, cosmic cat and Admiral Tuna was especially mad.</p>
-        <p>The prediction came true but everyone wanted it to not be the case. everyone felt like the observatory wasn't safe anymore so they all left. cosmic cat just hid for a while while Admiral Tuna tried cheering them up, eventually they formed the agents hoping they won't decipher they're predictions.</p>
-        <p>
-            Archived by Nightfang and the Archivists
-</p>
-    </header>
-
+<header>
+<h1>Nightfang</h1>
+<h2>Welcome to the Nightfang book</h2>
+<h2>Nightfang: she/her</h2>
+<img class="character-image" src="../../images/Observatory_cats/nightfang.png" alt="Nightfang">
+<p>Nightfang was one of the reasons the Old Cat Council left. She managed to interpret one of Cosmic Cat's predictions, becoming the only one to decipher a prediction before the event happened.</p>
+<p>The prediction was about Admiral Tuna being too weak to defend the Observatory and failing. Nightfang immediately called a meeting and told everyone. Cosmic Cat and Admiral Tuna were especially angry.</p>
+<p>The prediction came true, despite everyone hoping it wouldn't. Everyone felt that the Observatory was no longer safe, so they all left.</p>
+<p>Cosmic Cat hid for a while, while Admiral Tuna tried to cheer everyone up. Eventually, they formed the Agents, hoping that the Agents wouldn't decipher their predictions.</p>
+<div class="links">
+<a class="button" href="../old_cat_council.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Old Cat Council</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Nightfang and the Archivists</p>
+</footer>
 </body>
 </html>
