@@ -1,75 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>velvet</h1>
-
-        <h2>Welcome to the velvet book</h2>
-
-        <h2>velvet:he/him</h2>
-
-        <p>velvet is a sort of servent to whispertail because he feels like his indecisiveness doesn't matter with whispertail.</p>
-        <p>velvet is a social butterfly and his sociability helps whispertail with his videos with collabs although most of the time velvet is shy.</p>
-        <p>when the old cat council split whispertail demanded velvet go with him and velvet couldn't say no, everyone else seemed sad at this.</p>
-<p>
-            Archived by velvet and the Archivists
-</p>
-    </header>
-
+<header>
+<h1>Velvet</h1>
+<h2>Welcome to the Velvet book</h2>
+<h2>Velvet: he/him</h2>
+<img class="character-image" src="../../images/Observatory_cats/velvet.png" alt="Velvet">
+<p>Velvet is a sort of servant to Whispertail because he feels that his indecisiveness doesn't matter when he's with Whispertail.</p>
+<p>Velvet is a social butterfly, and his sociability helps Whispertail with his videos and collaborations, although Velvet is shy most of the time.</p>
+<p>When the Old Cat Council split, Whispertail demanded that Velvet go with him. Velvet couldn't say no, and everyone else seemed sad about it.</p>
+<div class="links">
+<a class="button" href="../old_cat_council.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Old Cat Council</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Velvet and the Archivists</p>
+</footer>
 </body>
 </html>
