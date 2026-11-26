@@ -1,76 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Moonwake</h1>
-
-        <h2>Welcome to the Moonwake book</h2>
-
-        <h2>moonwake:he/him</h2>
-
-        <p>Moonwake is the dreamer of the dynamic duo of trailblazer and him, his room proves it.</p>
-        <p>moonwake's room on trailblazer's ship is a mess of papers full of exploring ideas. trailblazer finds some occasionally and gets inspired to do them.</p>
-        <p>Moonwake: "what if we do this, find a cool café?"</p><p>trailblazer:"yep that's cool."</p><p>moonwake:"what about this, climbing a mountain?"</p><p>trailblazer:"oh we could climb very high with that one."</p><p>Moonwake:"you're just saying yes to all my ideas."</p><p>trailblazer:"so?"<p>
-            
-        </p>
-            Archived by Moonwake and the Archivists
-</p>
-    </header>
-
+<header>
+<h1>Moonwake</h1>
+<h2>Welcome to the Moonwake book</h2>
+<h2>Moonwake: he/him</h2>
+<img class="character-image" src="../../images/Observatory_cats/moonwake.png" alt="Moonwake">
+<p>Moonwake is the dreamer of the dynamic duo formed by him and Trailblazer. His room certainly proves it.</p>
+<p>Moonwake's room on Trailblazer's ship is a mess of papers filled with exploring ideas. Trailblazer occasionally finds them and gets inspired to try them out.</p>
+<p>Moonwake: "What if we do this? Find a cool café?"</p>
+<p>Trailblazer: "Yep, that's cool."</p>
+<p>Moonwake: "What about this? Climbing a mountain?"</p>
+<p>Trailblazer: "Oh, we could climb very high with that one."</p>
+<p>Moonwake: "You're just saying yes to all my ideas."</p>
+<p>Trailblazer: "So?"</p>
+<div class="links">
+<a class="button" href="../old_cat_council.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Old Cat Council</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Moonwake and the Archivists</p>
+</footer>
 </body>
 </html>
