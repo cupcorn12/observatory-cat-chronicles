@@ -1,76 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
 
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
 
 <body>
+<header>
 
-    <header>
+<h1>Agent Aquarius</h1>
+<h2>Welcome to the Agent Aquarius book</h2>
+<h2>agent aquarius: he/him, leviathan: she/her</h2>
+<img class="character-image" src="../../images/agents/agent-aquarius.png" alt="Agent Aquarius and Leviathan">
+<p>Agent Aquarius has a cat named leviathan. leviathan helps write down the crazy ideas Aquarius thinks up. leviathan doesnt like his name but with fhe crazy ideas he has thought of she is surprised he didnt pick a worse one.</p>
+<p>Agent Aquarius is an inventor and has made all sorts of crazy designs that usually doesn't work.</p>
+<p>Agent Aquarius' room is a library full of his ideas but most of the ideas go to the "too crazy to work" section so the section fills like three walls</p>
+<p>although Aquarius often makes a project that doesn't work he occasionally has a project that makes the other agents lives easier.</p>
 
-        <h1>Agent Aquarius</h1>
+<div class="links">
 
-        <h2>Welcome to the Agent Aquarius book</h2>
+<a class="button" href="../agents.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Agents</span>
+</a>
 
-        <h2>agent aquarius: he/him, leviathan: she/her</h2>
-        
-        <p>Agent Aquarius has a cat named leviathan. leviathan helps write down the crazy ideas Aquarius thinks up. leviathan doesnt like his name but with fhe crazy ideas he has thought of she is surprised he didnt pick a worse one.</p>
-        <p>Agent Aquarius is an inventor and has made all sorts of crazy designs that usually doesn't work.</p>
-        <p>Agent Aquarius' room is a library full of his ideas but most of the ideas go to the "too crazy to work" section so the section fills like three walls</p>
-        <p>although Aquarius often makes a project that doesn't work he occasionally has a project that makes the other agents lives easier.</p>
-<p>
-            Archived by Agent Aquarius
-</p>
-    </header>
+</div>
+
+</header>
+
+<footer>
+    <p>Archived by Agent Aquarius</p>
+</footer>
 
 </body>
 </html>
