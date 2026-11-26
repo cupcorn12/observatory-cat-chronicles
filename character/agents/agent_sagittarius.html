@@ -1,77 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Agent Sagittarius</h1>
-
-        <h2>Welcome to the Agent Sagittarius book</h2>
-
-        <h2>agent Sagittarius: he/him, finn: she/her</h2>
-
-        <p>Agent Sagittarius' cat is called finn and is known for organising the map room.</p>
-        <p>Agent Sagittarius is an explorer and is known for mapping out different areas around whe universe.</p>
-        <p>Agent Sagittarius' room is a gym and map room and although it was supposed to be secret, everyone goes there to train.</p>
-        <p>Agent Sagittarius often goes on missions because of his tendency to say yes to missions. aries and Sagittarius are the complete opposite whenit comes to exploring.
-        </p>
-<p>
-            Archived by Agent Sagittarius
-</p>
-    </header>
-
+<header>
+<h1>Agent Sagittarius</h1>
+<h2>Welcome to the Agent Sagittarius book</h2>
+<h2>Agent Sagittarius: he/him, Finn: she/her</h2>
+<img class="character-image" src="../../images/Agents%20and%20the%20cats/agent-sagittarius.png" alt="Agent Sagittarius and Finn">
+<p>Agent Sagittarius' cat is called Finn and is known for organising the map room.</p>
+<p>Agent Sagittarius is an explorer and is known for mapping out different areas around the universe.</p>
+<p>Agent Sagittarius' room is both a gym and a map room. Although it was supposed to be secret, everyone goes there to train.</p>
+<p>Agent Sagittarius often goes on missions because of his tendency to say yes to them. Aries and Sagittarius are complete opposites when it comes to exploring.</p>
+<div class="links">
+<a class="button" href="../agents.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Agents</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Agent Sagittarius</p>
+</footer>
 </body>
 </html>
