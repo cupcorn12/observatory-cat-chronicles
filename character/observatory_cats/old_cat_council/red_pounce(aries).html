@@ -1,75 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Red Pounce</h1>
-
-        <h2>Welcome to the Red Pounce book</h2>
-
-        <h2>red pounce: she/her</h2>
-
-        <p>Red Pounce is the most carefree cat ever, even among agent Aries. it is because she like exploring alone.</p>
-        <p>red pounce also has a spaceship full of her adventures.</p>
-        <p>one time gemini looked through the files in red pounce's spaceship and found a highly biased diary of a race to a new planet featuring granite and sunstripe.</p>
-        <p>
-            Archived by Red pounce and the Archivists
-</p>
-    </header>
-
+<header>
+<h1>Red Pounce</h1>
+<h2>Welcome to the Red Pounce book</h2>
+<h2>Red Pounce: she/her</h2>
+<img class="character-image" src="../../images/Observatory_cats/red_pounce.png" alt="Red Pounce">
+<p>Red Pounce is one of the most carefree cats ever, even compared to Agent Aries. This is because she likes exploring alone.</p>
+<p>Red Pounce also has a spaceship full of records of her adventures.</p>
+<p>One time, Gemini looked through the files on Red Pounce's spaceship and found a highly biased diary about a race to a new planet featuring Granite and Sunstripe.</p>
+<div class="links">
+<a class="button" href="../old_cat_council.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Old Cat Council</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Red Pounce and the Archivists</p>
+</footer>
 </body>
 </html>
