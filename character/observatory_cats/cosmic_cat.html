@@ -1,86 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { width: 250px; max-width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Cosmic Cat</h1>
-
-<H2>Welcome to the Cosmic Cat Character book</H2>
-
-        <h2>cosmic cat:they/them</h2>
-
-        <p>Cosmic Cat is as old as the universe and because of that cosmic cat is the founder and ceo of the observatory.</p>
-        <p>Cosmic cat is the one doing the cryptic horoscopes and predictions in they're meetings.</p>
-        <p>cosmic cat's room is full of they're own predictions except for a window that they always sit by and contemplate. leo was pretty happy about the window cuz cosmic cat usually dislikes when anyone does something like this but cosmic cat clearly liked it.</p>
-        <p>cosmic cat and scorpio always end up together although no-one knows why.</p>
-        <p>cosmic cat: "the timeline of the observatory is this: "me, old cat council and Admiral tuna, then the agents, then healer and finally quill and atlas."</p>
-        <p>Gemini: "what was that about the old cat council?"</p> <p>cosmic cat:"what's the old cat council."</p><p>Gemini:*sigh* "you keep doing that."</p> <p>despite that dialogue cosmic cat cares about the old cat council cuz whenever one of them is in trouble cosmic cat calls a meeting as soon as.</p>
-        
-        <div class="links">
-
-            <a class="button" href="old_cat_council.html">
-                Old Cat Council
-            </a>
-            
-        </div>
-
-    </header>
-<p>
-            Archived by Cosmic Cat and Gemini
-</p>
+<header>
+<h1>Cosmic Cat</h1>
+<h2>Welcome to the Cosmic Cat Character book</h2>
+<h2>cosmic cat:they/them</h2>
+<img class="character-image" src="../../images/characters/cosmic-cat.png" alt="Cosmic Cat">
+<p>Cosmic Cat is as old as the universe and because of that cosmic cat is the founder and ceo of the observatory.</p>
+<p>Cosmic cat is the one doing the cryptic horoscopes and predictions in they're meetings.</p>
+<p>cosmic cat's room is full of they're own predictions except for a window that they always sit by and contemplate. leo was pretty happy about the window cuz cosmic cat usually dislikes when anyone does something like this but cosmic cat clearly liked it.</p>
+<p>cosmic cat and scorpio always end up together although no-one knows why.</p>
+<p>cosmic cat: "the timeline of the observatory is this: "me, old cat council and Admiral tuna, then the agents, then healer and finally quill and atlas."</p>
+<p>Gemini: "what was that about the old cat council?"</p>
+<p>cosmic cat:"what's the old cat council."</p>
+<p>Gemini:*sigh* "you keep doing that."</p>
+<p>despite that dialogue cosmic cat cares about the old cat council cuz whenever one of them is in trouble cosmic cat calls a meeting as soon as.</p>
+<div class="links">
+<a class="button" href="old_cat_council.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Old Cat Council</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Cosmic Cat and Gemini</p>
+</footer>
 </body>
 </html>
