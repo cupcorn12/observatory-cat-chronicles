@@ -1,77 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Observatory Cat Chronicles</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #101426;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        header {
-            padding: 80px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        p {
-            max-width: 700px;
-            margin: 20px auto;
-            line-height: 1.6;
-        }
-
-        .links {
-            margin-top: 50px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            background-color: #252c4a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .button:hover {
-            background-color: #39436d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observatory Cat Chronicles</title>
+<style>
+footer { margin-top: 50px; padding: 20px; }
+body { font-family: Arial, sans-serif; background-color: #101426; color: white; text-align: center; margin: 0; }
+header { padding: 80px 20px; }
+h1 { font-size: 48px; }
+h2 { font-weight: normal; }
+p { max-width: 700px; margin: 20px auto; line-height: 1.6; }
+.links { margin-top: 50px; }
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 180px; height: 70px; margin: 10px; color: white; text-decoration: none; }
+.button img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.button span { position: relative; z-index: 1; }
+.button-image-hover { display: none; }
+.button:hover .button-image-normal { display: none; }
+.button:hover .button-image-hover { display: block; }
+.character-image { max-width: 500px; width: 100%; height: auto; margin: 20px auto; }
+</style>
 </head>
-
 <body>
-
-    <header>
-
-        <h1>Agent Capricorn </h1>
-
-        <h2>Welcome to the Agent Capricorn book</h2>
-
-        <h2>agent Capricorn:they/them, flame: he/him</h2>
-
-        <p>Agent Capricorn has a cat called flame and he helps with the building, planning and blueprinting Capricorn does.</p>
-        <p>Agent Capricorn is a planner and builder and often collaborates with aquarius and pisces.</p>
-        <p>Agent Capricorn's room is full of arts and crafts supplies and anything you can think of in regards to that can be done in the room.</p>
-        <p>one day leo asked for a boat so Capricorn asked Aquarius and pisces to help build it. leo was impressed that it worked and that it was big enough to hold the entire observatory residents.
-        </p>
-<p>
-            Archived by Agent Capricorn
-</p>
-    </header>
-
+<header>
+<h1>Agent Capricorn</h1>
+<h2>Welcome to the Agent Capricorn book</h2>
+<h2>Agent Capricorn: they/them, Flame: he/him</h2>
+<img class="character-image" src="../../images/Agents%20and%20the%20cats/agent-capricorn.png" alt="Agent Capricorn and Flame">
+<p>Agent Capricorn has a cat called Flame, and he helps with the building, planning and blueprinting Capricorn does.</p>
+<p>Agent Capricorn is a planner and builder and often collaborates with Aquarius and Pisces.</p>
+<p>Agent Capricorn's room is full of arts and crafts supplies. Anything you can think of in that area can be done in the room.</p>
+<p>One day, Leo asked for a boat, so Capricorn asked Aquarius and Pisces to help build it. Leo was impressed that it worked and that it was big enough to hold the entire Observatory's residents.</p>
+<div class="links">
+<a class="button" href="../agents.html">
+<img class="button-image-normal" src="../../images/buttons/button.png" alt="">
+<img class="button-image-hover" src="../../images/buttons/button-hover.png" alt="">
+<span>Back to Agents</span>
+</a>
+</div>
+</header>
+<footer>
+<p>Archived by Agent Capricorn</p>
+</footer>
 </body>
 </html>
